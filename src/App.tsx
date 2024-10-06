@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { MOCK_DATA, MockData } from './mockData';
 
 function App() {
@@ -32,9 +32,9 @@ function App() {
 
   // 초기 데이터 로드
   useEffect(() => {
-    const initialData = MOCK_DATA.slice(0, 10); // 처음에 10개 데이터 로드
+    const initialData = MOCK_DATA.slice(0, 10);
     setData(initialData);
-    calculateTotalPrice(initialData); // 가격 합산
+    calculateTotalPrice(initialData);
   }, []);
 
   // 추가 데이터 로드
@@ -43,14 +43,13 @@ function App() {
     const nextData = MOCK_DATA.slice(page * 10, nextPage * 10);
 
     if (nextData.length === 0) {
-      // 더 이상 가져올 데이터가 없을 경우
       setHasMoreData(false);
       return;
     }
 
     setData((prevData) => {
       const updatedData = [...prevData, ...nextData];
-      calculateTotalPrice(updatedData); // 새로운 데이터 추가 후 가격 합산
+      calculateTotalPrice(updatedData);
       return updatedData;
     });
 
