@@ -19,3 +19,15 @@
 3. 무한스크롤 관련된 라이브러리 사용 절대 금지
 4. 비동기 상태 관리 라이브러리 사용 절대 금지 (ex. tanstack-query)
 5. 3, 4번 조건 외의 라이브러리는 자유롭게 사용하셔도 됩니다
+
+## Stack
+- [x] HTML5
+- [ ] CSS3
+- [ ] SCSS
+- [ ] Styled-Components
+- [x] JavaScript
+- [x] React
+- [x] TypeScript
+- [ ] TanStack Query (React Query)
+- [ ] Recoil
+- [ ] Bootstrap
