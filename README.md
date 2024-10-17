@@ -21,10 +21,12 @@
 - [x] HTML5
 - [ ] CSS3
 - [ ] SCSS
-- [ ] Styled-Components
 - [ ] JavaScript
+- [ ] jQuery
 - [x] React
 - [x] TypeScript
 - [ ] TanStack Query (React Query)
 - [ ] Recoil
+- [ ] Styled-Components
 - [ ] Bootstrap
+- [ ] ChatGPT
